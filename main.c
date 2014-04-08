@@ -18,9 +18,7 @@ typedef enum bool boolean;
 void obtenerPosiciones(int i,int col[],boolean fila[],boolean diagonalB[],boolean diagonalS[],int *num);
 
 int main(int argc, char** argv) {
-
-    
-    int col[8]={0,0,0,0,0,0,0,0};
+    int col[8];
     int i;
     boolean diagonalB[15],diagonalS[15],fila[8];
     for(i=0;i<15;++i){
